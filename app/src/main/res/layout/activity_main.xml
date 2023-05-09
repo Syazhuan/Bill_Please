@@ -58,8 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="ToggleButton"
-            android:textOff="NO SVS"
-            android:textOn="SVS" />
+            android:textOff="@string/no_svs"
+            android:textOn="@string/svs" />
 
         <ToggleButton
             android:id="@+id/gst_tg"
@@ -67,8 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="ToggleButton"
-            android:textOff="NO GST"
-            android:textOn="GST" />
+            android:textOff="@string/no_gst"
+            android:textOn="@string/gst" />
 
     </LinearLayout>
 
@@ -81,7 +81,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Discount (%)" />
+            android:text="@string/discount" />
 
         <EditText
             android:id="@+id/discount"
@@ -101,13 +101,13 @@
             android:id="@+id/cash_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cash" />
+            android:text="@string/cash" />
 
         <RadioButton
             android:id="@+id/paynow_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PayNow" />
+            android:text="@string/paynow" />
     </RadioGroup>
 
     <LinearLayout
@@ -120,14 +120,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="SPLIT" />
+            android:text="@string/split" />
 
         <Button
             android:id="@+id/reset_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RESET" />
+            android:text="@string/reset" />
 
     </LinearLayout>
 
